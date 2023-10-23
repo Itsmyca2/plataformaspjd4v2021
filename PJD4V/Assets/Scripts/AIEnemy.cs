@@ -1,10 +1,10 @@
-/using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class EnemyController : MonoBehaviour
+public class AIEnemy : MonoBehaviour
 {
     public int maxEnergy;
     public int damage;
